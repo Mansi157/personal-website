@@ -1,0 +1,205 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Mansi Priya</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/yellow.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/yellow.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/yellow.png">
+	<link rel="manifest" href="./assets/images/site.webmanifest">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+  
+</head>
+<body>
+	<div id="loading-page"><div class="triple-spinner"></div></div>
+	<div id="main-content" style="display: none;">
+		<div class="navigation">
+			<input type="checkbox" id="nav-toggle" class="navigation-checkbox">
+			<label class="navigation-button" for="nav-toggle">                
+				<span class="navigation-icon">&nbsp;</span>            
+			</label>            
+			<div class="navigation-background">                
+				&nbsp;            
+			</div>            
+			<nav class="navigation-nav">                
+				<ul class="navigation-list">                    
+					<li class="navigation-item"><span onclick="slideTo('about',true)" class="navigation-link">About</span></li>                    
+					<li class="navigation-item"><span onclick="slideTo('portfolio',true)" class="navigation-link">Projects</span></li>                    
+					<li class="navigation-item"><span onclick="slideTo('contact',true)" class="navigation-link">Contact</span></li>
+					<li class="navigation-item mobileonly"><a href="./assets/documents/resume1234.pdf" download class="navigation-link">Resume</a></li>                                
+					<li style="position: relative;" class="navigation-item desktoponly">
+						<span onclick="toggleResume()" class="navigation-link resume-link">Resume</span>
+						<div class="resume-options">
+							<button onclick="downloadResume()">Download as PDF</button>
+							<button onclick="viewResume()">View in Browser</button>
+							<a id="download-resume" href="./assets/documents/resume1234.pdf" download></a>
+							<a target="_blank" id="view-resume" href="./assets/documents/resume1234.pdf"></a>
+						</div> 
+					</li>                                
+				</ul>              
+			</nav>     
+		</div>
+		<div class="container__main">
+			
+			<div class="hero__container">
+				<h1 class="heading__main hero__text">Mansi Priya</h1>
+				<p class="hero__title"  class="container">I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                 </p>
+				<!--<h3 class="hero__title">Software Developer</h3>-->
+			</div>
+			<div onclick="slideTo('about',false)" class="arrow-container">
+				<span class="arrow"></span>
+				<span class="arrow"></span>
+				<span class="arrow"></span>
+			</div>
+		</div>
+		<div class="about-me-container" id="about">
+			<div data-animatable="animatable" class="heading-container">
+				<h2 class="topic-heading" style="margin-top: 12px;">About</h2>
+			</div>
+			<div>
+				<div class="about-me-content">
+					<p class="about-me-text">
+						<span data-animatable="animatable">Hello there<span><img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"></span>, Welcome to my space of the world!</span><br>
+						<span data-animatable="animatable">I am Mansi Priya, a final year B.tech student in Vellore Institute of technology,Bhopal and a self taught programmer. Even though I am not an impeccable programmer, I love the world of coding. </span> 
+						<span data-animatable="animatable">I am trying to create magic with my knowledge</span></p>
+				</div>
+				<div class="about-me-info">
+					<h3 data-animatable="animatable" style="color:black;"><strong>SKILLS</strong></h3>
+					<div class="skills-container">
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/html-5.png">
+							Html5
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/css.png">
+							CSS3
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/javascript.png">
+							Javascript
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/Bootstrap.png">
+							Bootstrap
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/php.png">
+							PHP
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/C.png">
+							C
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/c++.png">
+							C++
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/java.png">
+							Core Java
+						</p>
+						<p data-animatable="animatable">
+							<img loading="lazy" src="./assets/images/database.png">
+							DBMS (MySQL)
+						</p>
+					</div>
+					<h3 data-animatable="animatable">Internships</h3>
+					<div class="work-container">
+						<div class="timeline">
+							<div class="container left">
+								<div id="work-first" class="work-card">
+									<div data-animatable="animatable" class="work-profile">Web development Intern</div>
+									<div data-animatable="animatable" class="work-company">Sahu Technology</div>
+									<p data-animatable="animatable" class="work-period">Jan2021 - Feb2021</p>
+									<p data-animatable="animatable">I worked as a web development intern at Sahu Technology where I was assigned in tasks of designing a basic banking system to help the users for carrying out online transactions.</p>
+
+.</p>
+								</div>
+							</div>
+							<div class="container right">
+								<div id="work-first" class="work-card">
+									<div data-animatable="animatable" class="work-profile">Front-End development Intern</div>
+									<div data-animatable="animatable" class="work-company">Sparks Foundation (Internship)</div>
+									<p data-animatable="animatable" class="work-period">Dec2020 - Dec 2020</p>
+									<p data-animatable="animatable">I worked with the web-development team where we have developed a project on the menu management system in which customers can book their table throug this website .</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h3 data-animatable="animatable"></h3>
+					<div class="recommendations-container">
+						<div  >
+							<div class="recommendation">
+									
+							<div class="recommender">
+								
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="portfolio" class="portfolio-container">
+			<div data-animatable="animatable" class="heading-container">
+				<h2 class="topic-heading">Projects</h2>
+			</div>
+			<div class="project-selection" class="contact-form-container">
+				<p data-animatable="animatable" onclick="selectCategory('all')" id="all" class="category-selected">ALL</p>
+				<p data-animatable="animatable" onclick="selectCategory('full stack')" id="full stack">Full Stack</p>
+				<p data-animatable="animatable" onclick="selectCategory('front end')" id="front end">JavaScript</p>
+			</div>
+			<div class="projects-container"></div>
+		</div>
+		<div id="contact" class="contact-container">
+			<div data-animatable="animatable" class="heading-container">
+				<h2 class="topic-heading">Contact</h2>
+			</div>
+			<div class="contact-grid" style=" align-content: center;">
+				<div class="contact-content">
+					<div class="centered">
+						<h1 data-animatable="animatable" class="contact-content__heading"><i class="fa fa-handshake-o"></i> Let's meet up <br> and collaborate!</h2>
+						<p data-animatable="animatable"><i class="fa fa-map-marker" aria-hidden="true"></i> Lucknow, UttarPradesh, India - 226002</p>
+						<p data-animatable="animatable"><i class="fa fa-envelope" aria-hidden="true"></i>mansi2000p.org@gmail.com</p>
+						<p data-animatable="animatable"><i class="fa fa-phone" aria-hidden="true"></i> +91 6388331935</p>
+						<h4 data-animatable="animatable" class="connect-heading">Connect with me on</h4>
+						<p data-animatable="animatable" class="social-icons">
+							<a class="instagram-icon" target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a class="github-icon" target="_blank" href="https://github.com/Mansi157"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+							<a class="linkedin-icon" target="_blank" href="https://www.linkedin.com/in/mansi-priya-7303041b5/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+												<form method="post" class="contact-form">
+
+						
+					</form>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<h2 data-animatable="animatable" class="footer-heading">Made with <i class="fa fa-heart red-heart" aria-hidden="true"></i> mansi</h2>
+		</footer>
+
+	</div>
+	<div class="modal">
+		<div class="modal-content">
+			<span class="modal-close">&times;</span>
+			<h1 class="modal-content__title"></h1>
+			<img loading="lazy" class="modal-content__image" src="">
+			<p class="modal-content__desc"></p>
+			<div class="modal-buttons">
+				<a target="_blank" href="" class="modal-content__link visit-btn">visit</a>
+			</div>
+		</div>
+	</div>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
